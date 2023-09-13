@@ -11,7 +11,7 @@ div {
 }
 
 img.portrait {
-  max-width: 200px;
+  max-width: 250px;
   float: left;
   margin: 0 1.3rem 1rem 0;
 }
@@ -19,7 +19,8 @@ img.portrait {
 main {
   margin: 1rem auto 0;
   max-width: 800px;
-  width: 90%
+  width: 90%;
+  padding-bottom: 3rem;
 }
 
 h1, h2 {
@@ -35,12 +36,20 @@ p:first-of-type {
   margin-top: 0;
 }
 
+a {
+  color: #050;
+}
+
 .box {
   clear: both;
   box-shadow: 0 25px 50px -12px rgba(0, 0, 0, .25);
   width: 100%;
-  min-height: 100px;
+  /* min-height: 100px; */
   background: #ffffff;
   padding: 1rem;
   margin: 2rem 0 0;
+}
+
+.box p:last-of-type {
+  margin-bottom: 0;
 }
