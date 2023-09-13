@@ -11,6 +11,7 @@ div {
 }
 
 img.portrait {
+  display: block;
   max-width: 250px;
   float: left;
   margin: 0 1.3rem 1rem 0;
@@ -52,4 +53,23 @@ a {
 
 .box p:last-of-type {
   margin-bottom: 0;
+}
+
+@media screen and (max-width: 480px) {
+  h1, h2 {
+    text-align: center;
+    margin: 0;
+  }
+
+  img.portrait {
+    float: none;
+    margin: 0 auto 2rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+  img.portrait {
+    max-width: 175px;
+  }
 }
