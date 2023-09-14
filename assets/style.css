@@ -15,6 +15,8 @@ img.portrait {
   max-width: 250px;
   float: left;
   margin: 0 1.3rem 1rem 0;
+  width: auto;
+  height: auto;
 }
 
 main {
@@ -38,7 +40,7 @@ p:first-of-type {
 }
 
 a {
-  color: #050;
+  color: #005500;
 }
 
 .box {
@@ -47,7 +49,7 @@ a {
   width: 100%;
   /* min-height: 100px; */
   background: #ffffff;
-  padding: 1rem;
+  padding: 1rem 1rem 1.3rem;
   margin: 2rem 0 0;
 }
 
